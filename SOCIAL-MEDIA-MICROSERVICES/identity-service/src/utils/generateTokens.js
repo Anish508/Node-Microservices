@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const refreshToken = require('../models/refreshToken.js')
+const RefreshToken  = require('../models/refreshToken.js')
 const crypto = require('crypto')
 
 const generateTokens = async (user) => {
@@ -19,7 +19,7 @@ const generateTokens = async (user) => {
   const expiresAt = new Date();
   expiresAt.setDate(expiresAt.getDate() + 7) //refresh token expires in 7 days
 
-  await refreshToken.create({
+  await RefreshToken.create({
     token: refreshToken,
     user: user._id,
     expiresAt

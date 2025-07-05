@@ -1,7 +1,7 @@
-const { error } = require('winston')
+
 const logger = require('../utils/logger.js')
 const validateRegistration = require('../utils/validation.js')
-const User = require('../models/user-model')
+const User = require('../models/user-model.js')
 const generateTokens = require('../utils/generateTokens.js')
 
 //user reg
@@ -18,7 +18,7 @@ const registerUser = async(req ,res )=>{
     }
     const {username, email, password} = req.body
 
-    let user = await User.findOne({$or: [{email}, {password}]})
+    let user = await User.findOne({$or: [{email}, {username}]})
     if(user){
       logger.warn("User already exists please login")
       return res.status(400).json({
@@ -26,7 +26,7 @@ const registerUser = async(req ,res )=>{
         message:"User already exists"
       })
     }
-    user = new User(username, email, password)
+    user = new User({username, email, password})
     await user.save()
     logger.warn("User saved successfully", user._id)
 
