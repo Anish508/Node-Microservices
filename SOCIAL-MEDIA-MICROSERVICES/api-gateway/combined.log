@@ -42,3 +42,42 @@
 {"level":"info","message":"Received POST request to /v1/auth/refreshToken ","service":"api-gateway","timestamp":"2025-07-07T15:14:29.373Z"}
 {"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:14:29.383Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-07-07T15:14:29.426Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-07T15:14:49.218Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-07T15:14:49.222Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-07T15:14:49.223Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refreshToken ","service":"api-gateway","timestamp":"2025-07-07T15:14:52.364Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:14:52.365Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:14:52.724Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:16:02.198Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:16:02.199Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:16:02.276Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:16:09.636Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:16:09.637Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:16:09.758Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:16:15.527Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:16:15.528Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:16:15.604Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:18:30.703Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:18:30.704Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:18:30.778Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:18:35.881Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:18:35.882Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:18:35.988Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register ","service":"api-gateway","timestamp":"2025-07-07T15:19:12.061Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:19:12.062Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:19:12.493Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-07T15:19:46.736Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:19:46.736Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:19:47.045Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refreshToken ","service":"api-gateway","timestamp":"2025-07-07T15:20:19.835Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:20:19.836Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:20:20.125Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:20:40.418Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:20:40.419Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:20:40.512Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:20:44.524Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:20:44.524Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:20:44.601Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:20:51.718Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:20:51.718Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:20:51.809Z"}

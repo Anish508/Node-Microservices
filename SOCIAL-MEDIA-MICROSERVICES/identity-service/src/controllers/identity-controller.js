@@ -156,6 +156,14 @@ const logoutUser = async (req, res)=>{
         message: "Missing refresh token",
       });
     }
+    const storedToken = await RefreshToken.findOne({ token: refreshToken });
+    if (!storedToken || storedToken.expiresAt < new Date()) {
+      logger.warn("Invalid or expired refresh token ");
+      return res.status(400).json({
+        success: false,
+        message: "Invalid Refresh Token",
+      });
+    }
     await RefreshToken.deleteOne({token: refreshToken})
     logger.info("Refresh Token Deleted for logout")
     res.json({
