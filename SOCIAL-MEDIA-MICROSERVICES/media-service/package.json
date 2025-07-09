@@ -1,0 +1,14 @@
+{
+  "name": "media-service",
+  "version": "1.0.0",
+  "description": "Media related service",
+  "license": "ISC",
+  "author": "Anish",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "src server.js",
+    "dev":"src server.js"
+  }
+}

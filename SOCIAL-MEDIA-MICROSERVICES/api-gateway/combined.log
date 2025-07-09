@@ -81,3 +81,6 @@
 {"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:20:51.718Z"}
 {"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:20:51.718Z"}
 {"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-07T15:20:51.809Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout?con ","service":"api-gateway","timestamp":"2025-07-07T15:25:09.310Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-07T15:25:09.310Z"}
+{"level":"info","message":"Response received from identity service: 400","service":"api-gateway","timestamp":"2025-07-07T15:25:09.445Z"}

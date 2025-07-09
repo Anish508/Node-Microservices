@@ -175,3 +175,9 @@
 {"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2025-07-07T15:20:51.724Z"}
 {"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-07-07T15:20:51.725Z"}
 {"level":"info","message":"Refresh Token Deleted for logout","service":"identity-service","timestamp":"2025-07-07T15:20:51.807Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3001","service":"identity-service","timestamp":"2025-07-07T15:24:36.826Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-07T15:24:37.754Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout?con ","service":"identity-service","timestamp":"2025-07-07T15:25:09.345Z"}
+{"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2025-07-07T15:25:09.346Z"}
+{"level":"info","message":"Logout endpoint hit","service":"identity-service","timestamp":"2025-07-07T15:25:09.354Z"}
+{"level":"warn","message":"Invalid or expired refresh token ","service":"identity-service","timestamp":"2025-07-07T15:25:09.440Z"}
