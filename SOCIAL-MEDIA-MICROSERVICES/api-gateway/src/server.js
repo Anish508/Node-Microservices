@@ -1,21 +1,22 @@
-require('dotenv').config()
-const express = require('express')
-const cors = require('cors')
-const Redis = require('ioredis')
-const helmet = require('helmet')
-const {rateLimit} = require('express-rate-limit')
-const {RedisStore} = require('rate-limit-redis')
-const logger = require('./utils/logger.js')
-const proxy = require('express-http-proxy')
-const errorHandler = require('./middlewares/errorHandler.js')
-const app= express()
-const PORT = process.env.PORT
+require("dotenv").config();
+const express = require("express");
+const cors = require("cors");
+const Redis = require("ioredis");
+const helmet = require("helmet");
+const { rateLimit } = require("express-rate-limit");
+const { RedisStore } = require("rate-limit-redis");
+const logger = require("./utils/logger.js");
+const proxy = require("express-http-proxy");
+const errorHandler = require("./middlewares/errorHandler.js");
+const validateToken = require("./middlewares/authMiddleware.js");
+const app = express();
+const PORT = process.env.PORT;
 
-const redisClient = new Redis(process.env.REDIS_URL)
+const redisClient = new Redis(process.env.REDIS_URL);
 
-app.use(helmet())
-app.use(cors())
-app.use(express.json())
+app.use(helmet());
+app.use(cors());
+app.use(express.json());
 
 const rateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, //15 mins
@@ -31,7 +32,7 @@ const rateLimiter = rateLimit({
   }),
 });
 
-app.use(rateLimiter)
+app.use(rateLimiter);
 
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url} `);
@@ -45,38 +46,67 @@ app.use((req, res, next) => {
 //identity-services -> localhost:3000:/api/auth/register
 
 const proxyOption = {
-  proxyReqPathResolver : (req)=>{
-    return req.originalUrl.replace(/^\/v1/,"/api")
+  proxyReqPathResolver: (req) => {
+    return req.originalUrl.replace(/^\/v1/, "/api");
   },
-  proxyErrorHandler: (err, res, next)=>{
-    logger.error(`Proxy error: ${err.message}`)
+  proxyErrorHandler: (err, res, next) => {
+    logger.error(`Proxy error: ${err.message}`);
     res.status(500).json({
-      success:false,
-      message:`Internal server error`,
-       error: err.message
-    })
-  }
-} 
+      success: false,
+      message: `Internal server error`,
+      error: err.message,
+    });
+  },
+};
 
 //setting up proxy for our identity services
 
-app.use('/v1/auth', proxy(process.env.INDENTITY_SERVICE_URL, {
- ...proxyOption,
-  proxyReqOptDecorator: (proxyReqOps, srcReq) => {
-    proxyReqOps.headers["Content-Type"] = "application/json";
-    return proxyReqOps;
-  },
-  userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
-    logger.info(`Response received from identity service: ${proxyRes.statusCode}`);
-    return proxyResData;
-  }
-}))
+app.use(
+  "/v1/auth",
+  proxy(process.env.INDENTITY_SERVICE_URL, {
+    ...proxyOption,
+    proxyReqOptDecorator: (proxyReqOps, srcReq) => {
+      proxyReqOps.headers["Content-Type"] = "application/json";
+      return proxyReqOps;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from identity service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+  })
+);
 
+//setting up proxy for our post  services
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, {
+    ...proxyOption,
+    proxyReqOptDecorator: (proxyReqOps, srcReq) => {
+      proxyReqOps.headers["Content-Type"] = "application/json";
+      proxyReqOps.headers["x-user-id"] = srcReq.user.userId;
+      return proxyReqOps;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response received from post service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+  })
+);
 
-app.use(errorHandler)
+app.use(errorHandler);
 
-app.listen(PORT, ()=>{
-  logger.info(`API Gateway is running on port : ${PORT}`)
-  logger.info(`Identity service is running on port : ${process.env.INDENTITY_SERVICE_URL}`)
-  logger.info(`Redis URL : ${process.env.REDIS_URL}`)
-})
+app.listen(PORT, () => {
+  logger.info(`API Gateway is running on port : ${PORT}`);
+  logger.info(
+    `Identity service is running on port : ${process.env.INDENTITY_SERVICE_URL}`
+  );
+  logger.info(
+    `Post service is running on port : ${process.env.POST_SERVICE_URL}`
+  );
+  logger.info(`Redis URL : ${process.env.REDIS_URL}`);
+});

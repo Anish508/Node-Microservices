@@ -56,6 +56,7 @@ app.use((req, res, next) => {
     });
 });
 
+//IP based rate limiting for sensitive endpoints
 const endPointRateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, //15 mins
   limit: 50,
