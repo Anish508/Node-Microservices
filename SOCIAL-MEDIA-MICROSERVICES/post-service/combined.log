@@ -124,3 +124,191 @@
 {"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-10T11:24:31.533Z"}
 {"level":"info","message":"Received GET request to /api/posts/get-all-posts?page=3&limit=2 ","service":"identity-service","timestamp":"2025-07-10T11:24:33.055Z"}
 {"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-10T11:24:33.056Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T05:49:11.083Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T05:49:12.261Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T05:49:37.832Z"}
+{"level":"info","message":"Request body {\"content\":\"smart word\"}","service":"identity-service","timestamp":"2025-07-11T05:49:37.833Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-11T05:49:37.937Z"}
+{"level":"info","message":"Post created by user: 686f9c432c5b96cc5b6dbbbc","service":"identity-service","timestamp":"2025-07-11T05:49:37.944Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T05:49:52.940Z"}
+{"level":"info","message":"Request body {\"content\":\"Anish Barke\"}","service":"identity-service","timestamp":"2025-07-11T05:49:52.942Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-11T05:49:53.138Z"}
+{"level":"info","message":"Post created by user: 686f9c432c5b96cc5b6dbbbc","service":"identity-service","timestamp":"2025-07-11T05:49:53.141Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts?page=3&limit=2 ","service":"identity-service","timestamp":"2025-07-11T05:50:05.196Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T05:50:05.197Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts?page=3&limit=2 ","service":"identity-service","timestamp":"2025-07-11T05:50:14.810Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T05:50:14.811Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T05:50:22.913Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T05:50:22.914Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T05:50:28.870Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T05:50:28.871Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T05:54:10.191Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:10:52.070Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:10:54.345Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:11:16.165Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:11:17.007Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:11:20.418Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:11:40.894Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:11:41.670Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post ","service":"identity-service","timestamp":"2025-07-11T06:12:48.966Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:12:48.967Z"}
+{"kind":"ObjectId","level":"error","message":"Error while fetching individual post Cast to ObjectId failed for value \"{ postId: undefined }\" (type Object) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"identity-service","stack":"CastError: Cast to ObjectId failed for value \"{ postId: undefined }\" (type Object) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1258:12)\n    at SchemaType.castForQuery (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1676:17)\n    at cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\cast.js:319:34)\n    at Query.cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:2351:10)\n    at model.Query._findOne (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:2674:8)\n    at model.Query.exec (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:4604:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getSinglePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:86:18)","stringValue":"\"{ postId: undefined }\"","timestamp":"2025-07-11T06:12:48.980Z","value":{},"valueType":"Object"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:13:28.819Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:13:30.048Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T06:13:43.497Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:13:43.498Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:14:06.782Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:14:06.783Z"}
+{"kind":"ObjectId","level":"error","message":"Error while fetching individual post Cast to ObjectId failed for value \"{ postId: '686f9c912ed38388503f0ff2' }\" (type Object) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"identity-service","stack":"CastError: Cast to ObjectId failed for value \"{ postId: '686f9c912ed38388503f0ff2' }\" (type Object) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1258:12)\n    at SchemaType.castForQuery (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1676:17)\n    at cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\cast.js:319:34)\n    at Query.cast (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:2351:10)\n    at model.Query._findOne (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:2674:8)\n    at model.Query.exec (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\mongoose\\lib\\query.js:4604:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getSinglePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:86:18)","stringValue":"\"{ postId: '686f9c912ed38388503f0ff2' }\"","timestamp":"2025-07-11T06:14:06.792Z","value":{"postId":"686f9c912ed38388503f0ff2"},"valueType":"Object"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:15:45.889Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:15:46.873Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:15:48.238Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:15:49.075Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:16:19.436Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:16:20.341Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:16:23.078Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:16:24.043Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:16:40.440Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:16:41.779Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:16:44.077Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:16:44.883Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:16:47.531Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:16:47.531Z"}
+{"level":"error","message":"Error while fetching individual post req.redisClient.setEx is not a function","service":"identity-service","stack":"TypeError: req.redisClient.setEx is not a function\n    at getSinglePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:94:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-07-11T06:16:47.618Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:17:19.026Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:17:19.779Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:20.764Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:20.765Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error while fetching individual post Cannot set headers after they are sent to the client","service":"identity-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at getSinglePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:95:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-07-11T06:17:20.854Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at getSinglePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:101:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"identity-service","timestamp":"2025-07-11T06:17:20.857Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:17:41.863Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:17:42.809Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:45.598Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:45.598Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:53.893Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:53.894Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:55.425Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:55.426Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:56.959Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:56.961Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:17:58.282Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:17:58.282Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:19:19.480Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:28:04.723Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:28:05.767Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:29:37.562Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:29:37.563Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T06:30:07.565Z"}
+{"level":"info","message":"Request body {\"content\":\"Anish Barke\"}","service":"identity-service","timestamp":"2025-07-11T06:30:07.566Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-11T06:30:07.706Z"}
+{"level":"info","message":"Post created by user: 686f9c432c5b96cc5b6dbbbc","service":"identity-service","timestamp":"2025-07-11T06:30:07.708Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:30:16.734Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:30:16.736Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:31:28.041Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:31:29.117Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:31:30.199Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:31:30.200Z"}
+{"level":"error","message":"Error while deleting post newlyCreatedPost is not defined","service":"identity-service","stack":"ReferenceError: newlyCreatedPost is not defined\n    at deletePost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:119:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-07-11T06:31:30.319Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:32:10.999Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:32:11.001Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:32:38.655Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:32:38.657Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:33:52.456Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:33:53.488Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:34:09.811Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:34:14.342Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:34:17.123Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:34:18.114Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:34:22.505Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:34:23.350Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:34:38.580Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:34:38.582Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:34:45.094Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:34:45.096Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:35:31.365Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:35:32.356Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:35:56.938Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:35:56.940Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:36:30.276Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:36:30.278Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-single-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T06:36:37.942Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:36:37.943Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T06:37:03.738Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:37:03.740Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:37:29.957Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T06:37:31.365Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:37:31.368Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:37:31.931Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T06:58:48.585Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T06:58:49.660Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T06:59:22.846Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:59:22.847Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T06:59:49.855Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T06:59:49.857Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:01:43.241Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:01:43.248Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T07:01:57.449Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:01:57.451Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:03:10.131Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T07:03:11.008Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:04:38.093Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:04:39.288Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T07:04:40.174Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c432c5b96cc5b6dbbbc ","service":"identity-service","timestamp":"2025-07-11T07:04:45.729Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:04:45.729Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:05:27.363Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T07:05:28.342Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T07:06:05.748Z"}
+{"level":"info","message":"Request body {\"content\":\"testing delete\"}","service":"identity-service","timestamp":"2025-07-11T07:06:05.750Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-11T07:06:05.872Z"}
+{"level":"info","message":"Post created by user: 686f9c432c5b96cc5b6dbbbc","service":"identity-service","timestamp":"2025-07-11T07:06:05.877Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:06:18.894Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:06:18.895Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/6870af6fe1e30e48f82a3030 ","service":"identity-service","timestamp":"2025-07-11T07:07:10.555Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:07:10.561Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:07:48.755Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:07:50.090Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T07:07:51.215Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/6870af6fe1e30e48f82a3030 ","service":"identity-service","timestamp":"2025-07-11T07:07:56.343Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:07:56.344Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9c912ed38388503f0ff2 ","service":"identity-service","timestamp":"2025-07-11T07:08:07.147Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:08:07.147Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686fa2e708dd8f9408118038 ","service":"identity-service","timestamp":"2025-07-11T07:08:25.521Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:08:25.521Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T07:08:50.630Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T07:08:51.637Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9bd52ed38388503f0fec ","service":"identity-service","timestamp":"2025-07-11T07:09:01.785Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:09:01.786Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9bd52ed38388503f0fec ","service":"identity-service","timestamp":"2025-07-11T07:09:13.586Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:09:13.586Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686f9bd52ed38388503f0fec ","service":"identity-service","timestamp":"2025-07-11T07:09:40.098Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:09:40.099Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/686fa2e708dd8f9408118038 ","service":"identity-service","timestamp":"2025-07-11T07:10:06.731Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:10:06.732Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:10:40.633Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:10:40.634Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/6870b7dd757edd09db461973 ","service":"identity-service","timestamp":"2025-07-11T07:10:56.732Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:10:56.733Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:11:13.246Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:11:13.246Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:11:19.933Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:11:19.933Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-11T07:11:21.691Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-11T07:11:21.691Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T10:57:49.491Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T10:57:50.485Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T10:59:52.260Z"}
+{"level":"info","message":"Request body {\"content\":\"te\"}","service":"identity-service","timestamp":"2025-07-11T10:59:52.266Z"}
+{"level":"error","message":"Error while creating a post validateContent is not a function","service":"identity-service","stack":"TypeError: validateContent is not a function\n    at createPost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:16:23)\n    at Layer.handleRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticatedRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\middleware\\authMiddleware.js:14:3)","timestamp":"2025-07-11T10:59:52.280Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T11:00:05.206Z"}
+{"level":"info","message":"Request body {\"content\":\"teewew\"}","service":"identity-service","timestamp":"2025-07-11T11:00:05.207Z"}
+{"level":"error","message":"Error while creating a post validateContent is not a function","service":"identity-service","stack":"TypeError: validateContent is not a function\n    at createPost (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\controller\\postController.js:16:23)\n    at Layer.handleRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticatedRequest (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\middleware\\authMiddleware.js:14:3)","timestamp":"2025-07-11T11:00:05.209Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-11T11:00:50.962Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-11T11:00:51.895Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T11:00:56.020Z"}
+{"level":"info","message":"Request body {\"content\":\"teewew\"}","service":"identity-service","timestamp":"2025-07-11T11:00:56.021Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-11T11:00:56.135Z"}
+{"level":"info","message":"Post created by user: 686f9c432c5b96cc5b6dbbbc","service":"identity-service","timestamp":"2025-07-11T11:00:56.140Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T11:01:03.910Z"}
+{"level":"info","message":"Request body {\"content\":\"wew\"}","service":"identity-service","timestamp":"2025-07-11T11:01:03.910Z"}
+{"0":"\"","1":"c","10":"l","11":"e","12":"n","13":"g","14":"t","15":"h","16":" ","17":"m","18":"u","19":"s","2":"o","20":"t","21":" ","22":"b","23":"e","24":" ","25":"a","26":"t","27":" ","28":"l","29":"e","3":"n","30":"a","31":"s","32":"t","33":" ","34":"5","35":" ","36":"c","37":"h","38":"a","39":"r","4":"t","40":"a","41":"c","42":"t","43":"e","44":"r","45":"s","46":" ","47":"l","48":"o","49":"n","5":"e","50":"g","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"validation error","service":"identity-service","timestamp":"2025-07-11T11:01:03.915Z"}

@@ -1,23 +1,36 @@
 const logger = require("../utils/logger.js");
 const Post = require("../models/Posts.js");
+const {validateContent} = require('../utils/validation.js')
 
 async function invalidatePostCache(req, input) {
-  const keys = await req.redisClient.keys("posts:*")
-  if(keys.length > 0){
-    await req.redisClient.del(keys)
+  const cachedKey = `post${input}`
+  await req.redisClient.del(cachedKey)
+  const keys = await req.redisClient.keys("posts:*");
+  if (keys.length > 0) {
+    await req.redisClient.del(keys);
   }
 }
 
 const createPost = async (req, res) => {
   try {
+    const { error } = validateContent(req.body);
+        if (error) {
+          logger.warn("validation error", error.details[0].message);
+          return res.status(400).json({
+            success: false,
+            message: error.details[0].message,
+          });
+        }
+
     const { mediaIds, content } = req.body;
+    
     const newlyCreatedPost = new Post({
       user: req.user.userId,
       content,
       mediaIds: mediaIds || [],
     });
     await newlyCreatedPost.save();
-    await invalidatePostCache(req, newlyCreatedPost._id.toString())
+    await invalidatePostCache(req, newlyCreatedPost._id.toString());
     logger.info("Post created successfully");
     res.status(201).json({
       success: true,
@@ -49,21 +62,20 @@ const getAllPosts = async (req, res) => {
       .skip(startIndex)
       .limit(limit);
 
-      const totalNoOfPosts = await Post.countDocuments()
+    const totalNoOfPosts = await Post.countDocuments();
 
-      const result = {
-        posts,
-        currentPage: page,
-        totalPages: Math.ceil(totalNoOfPosts / limit),
-        totalPosts: totalNoOfPosts
-      }
+    const result = {
+      posts,
+      currentPage: page,
+      totalPages: Math.ceil(totalNoOfPosts / limit),
+      totalPosts: totalNoOfPosts,
+    };
 
-      //saving post in redis client
+    //saving post in redis client
 
-      await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
+    await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
 
-
-      res.json(result)
+    res.json(result);
   } catch (error) {
     logger.error("Error while fetching posts", error);
     res.status(500).json({
@@ -74,6 +86,29 @@ const getAllPosts = async (req, res) => {
 };
 const getSinglePost = async (req, res) => {
   try {
+    const postId = req.params.id;
+
+    const cacheKey = `post:${postId}`;
+    const cachePosts = await req.redisClient.get(cacheKey);
+
+    if (cachePosts) {
+      return res.json(JSON.parse(cachePosts));
+    }
+
+    const post = await Post.findById(postId);
+
+    if (!post) {
+      return res.status(403).json({
+        success: false,
+        message: "Post not found please varify id",
+      });
+    }
+
+    await req.redisClient.setex(cacheKey, 3600, JSON.stringify(post));
+    res.status(200).json({
+      success: true,
+      message: "Single post fetched successfully",
+    });
   } catch (error) {
     logger.error("Error while fetching individual post", error);
     res.status(500).json({
@@ -84,13 +119,36 @@ const getSinglePost = async (req, res) => {
 };
 const deletePost = async (req, res) => {
   try {
+    const deleteId = req.params.id;
+
+    // Correct method: findOneAndDelete for conditional deletion
+    const deletedPost = await Post.findOneAndDelete({
+      _id: deleteId,
+      user: req.user.userId
+    });
+
+    if (!deletedPost) {
+      return res.status(404).json({
+        success: false,
+        message: "Post not found or you are not authorized to delete it",
+      });
+    }
+
+    await invalidatePostCache(req, deleteId);
+
+    return res.status(200).json({
+      success: true,
+      message: "Post deleted successfully",
+      data: deletedPost
+    });
   } catch (error) {
     logger.error("Error while deleting post", error);
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
-      message: "Problem arised while deletin gpost",
+      message: "Problem occurred while deleting post",
     });
   }
 };
+
 
 module.exports = { createPost, getAllPosts, getSinglePost, deletePost };
