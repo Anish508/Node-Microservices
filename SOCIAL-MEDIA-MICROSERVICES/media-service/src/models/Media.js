@@ -6,7 +6,7 @@ const mediaSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    originName: {
+    originalName: {
       type: String,
       required: true,
     },

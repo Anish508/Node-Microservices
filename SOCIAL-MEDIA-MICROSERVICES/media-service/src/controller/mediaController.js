@@ -12,10 +12,9 @@ const uploadMedia = async(req, res)=>{
         message:"File not found!"
       })
     }
-    const {originalName, mimetype, buffer} = req.file
-    const userId = req.user.userId
-
-    logger.info(`File details: name:${originalName}- type:${mimetype}`)
+    const {originalname, mimetype, buffer} = req.file
+    
+    logger.info(`File details: name:${originalname}- type:${mimetype}`)
     logger.info("uploading to cloudinary starting......")
 
     const cloudinaryUploadresult = await uploadMediaTCoCLoudinary(req.file)
@@ -23,10 +22,10 @@ const uploadMedia = async(req, res)=>{
 
     const newlyCreatedMedia = new Media({
       publicId: cloudinaryUploadresult.public_id,
-      originalName,
-      mimetype,
+      originalName: originalname,
+      mimeType:mimetype,
       url: cloudinaryUploadresult.secure_url,
-      userId
+      userId: req.user.userId
     })
     await newlyCreatedMedia.save()
 
@@ -35,9 +34,15 @@ const uploadMedia = async(req, res)=>{
       message:"Media uploaded successfully",
       MediaId : newlyCreatedMedia._id,
       url : newlyCreatedMedia.url,
-  
+      userId: req.user.userId
     })
   } catch (error) {
-    
+     logger.error("Error while Uploading a media ", error);
+    res.status(500).json({
+      success: false,
+      message: "Problem arised while Uploading a media ",
+    });
   }
 }
+
+module.exports = {uploadMedia}

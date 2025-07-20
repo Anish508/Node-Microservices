@@ -10,9 +10,10 @@ const errorHandler = require("./middleware/errorHandler.js");
 const logger = require("./utils/logger.js");
 const { rateLimit } = require("express-rate-limit");
 const { RedisStore } = require("rate-limit-redis");
-const { ensureIndexes } = require("./models/Posts.js");
+
 const app = express();
 const PORT = process.env.PORT || 3002;
+
 
 mongoose
   .connect(process.env.MONGO_URI)
@@ -36,6 +37,7 @@ app.use((req, res, next) => {
   next();
 });
 
+//restricting user by using IP based ratelimiter
 const endPointRateLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, //15 mins
   limit: 100,
@@ -67,5 +69,5 @@ app.listen(PORT, () => {
 //unhandled promise rejection
 
 process.on("unhandledRejection", (reason, promise) => {
-  logger.error("Unhandled regection at ", promise, "reason:", reason);
+  logger.error("Unhandled rejection at ", promise, "reason:", reason);
 });
