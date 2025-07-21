@@ -312,3 +312,54 @@
 {"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-11T11:01:03.910Z"}
 {"level":"info","message":"Request body {\"content\":\"wew\"}","service":"identity-service","timestamp":"2025-07-11T11:01:03.910Z"}
 {"0":"\"","1":"c","10":"l","11":"e","12":"n","13":"g","14":"t","15":"h","16":" ","17":"m","18":"u","19":"s","2":"o","20":"t","21":" ","22":"b","23":"e","24":" ","25":"a","26":"t","27":" ","28":"l","29":"e","3":"n","30":"a","31":"s","32":"t","33":" ","34":"5","35":" ","36":"c","37":"h","38":"a","39":"r","4":"t","40":"a","41":"c","42":"t","43":"e","44":"r","45":"s","46":" ","47":"l","48":"o","49":"n","5":"e","50":"g","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"validation error","service":"identity-service","timestamp":"2025-07-11T11:01:03.915Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T06:09:53.658Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T06:09:55.214Z"}
+{"level":"info","message":"Received POST request to /api/posts/upload ","service":"identity-service","timestamp":"2025-07-20T06:11:17.690Z"}
+{"level":"info","message":"Request body {\"content\":\"Books can chnage the mindset\",\"mediaIds\":[\"687c8510b51e2f6bc985a043\"]}","service":"identity-service","timestamp":"2025-07-20T06:11:17.691Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-20T06:11:45.021Z"}
+{"level":"info","message":"Request body {\"content\":\"Books can chnage the mindset\",\"mediaIds\":[\"687c8510b51e2f6bc985a043\"]}","service":"identity-service","timestamp":"2025-07-20T06:11:45.022Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-20T06:11:45.111Z"}
+{"level":"info","message":"Post created by user: 6878a1e5b2f18c8a93cf057a","service":"identity-service","timestamp":"2025-07-20T06:11:45.112Z"}
+{"level":"info","message":"Received POST request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-20T06:14:34.208Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-20T06:14:34.209Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-20T06:15:01.043Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-20T06:15:01.044Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-20T06:15:28.218Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-20T06:15:28.218Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-20T06:15:46.029Z"}
+{"level":"info","message":"Request body {\"content\":\"Books can chnage the mindset\",\"mediaIds\":[\"687c8510b51e2f6bc985a043\"]}","service":"identity-service","timestamp":"2025-07-20T06:15:46.030Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-20T06:15:46.097Z"}
+{"level":"info","message":"Post created by user: 6878a1e5b2f18c8a93cf057a","service":"identity-service","timestamp":"2025-07-20T06:15:46.099Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-20T06:15:51.382Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-20T06:15:51.383Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T06:26:13.904Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T06:26:14.836Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T07:07:14.967Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:07:15.790Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T07:09:09.308Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:09:10.332Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:50:47.737Z"}
+{"level":"warn","message":"Failed to connect server","service":"identity-service","timestamp":"2025-07-20T07:51:33.856Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:51:34.496Z"}
+{"level":"warn","message":"Failed to connect server","service":"identity-service","timestamp":"2025-07-20T07:51:40.120Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:51:41.040Z"}
+{"level":"warn","message":"Failed to connect server","service":"identity-service","timestamp":"2025-07-20T07:52:33.391Z"}
+{"level":"warn","message":"Failed to connect server","service":"identity-service","timestamp":"2025-07-20T07:52:33.391Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:52:34.206Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:52:35.619Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-20T07:52:56.951Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-20T07:52:56.951Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:52:57.882Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:52:57.887Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-20T07:53:30.005Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T07:53:30.009Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-20T07:53:30.021Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T07:53:30.025Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:53:30.702Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T07:53:30.793Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-20T08:08:58.015Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T08:08:58.020Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T08:08:58.728Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-20T08:14:13.441Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T08:14:13.449Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T08:14:14.123Z"}

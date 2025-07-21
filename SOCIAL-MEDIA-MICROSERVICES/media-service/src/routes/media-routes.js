@@ -1,7 +1,7 @@
 const express = require('express')
 const multer = require('multer')
 
-const {uploadMedia} = require('../controller/mediaController.js')
+const {uploadMedia , getAllMedia} = require('../controller/mediaController.js')
 const authenticatedRequest = require('../middleware/authMiddleware.js')
 const logger = require('../utils/logger.js')
 
@@ -42,5 +42,6 @@ router.post('/upload', authenticatedRequest,  (req,res,next)=>{
     })
 }, uploadMedia)
 
+router.get('/get-media', authenticatedRequest, getAllMedia)
 
 module.exports = router

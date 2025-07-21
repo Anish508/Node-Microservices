@@ -1,5 +1,6 @@
 const Media = require('../models/Media')
-const uploadMediaTCoCLoudinary = require('../utils/cloudinary.js')
+const {uploadMediaTCoCLoudinary, deleteFromCloudinary} = require('../utils/cloudinary.js')
+
 const logger = require('../utils/logger.js')
 
 const uploadMedia = async(req, res)=>{
@@ -45,4 +46,16 @@ const uploadMedia = async(req, res)=>{
   }
 }
 
-module.exports = {uploadMedia}
+const getAllMedia = async(req, res)=>{
+  try {
+    const result = await Media.find({})
+    res.json(result)
+  } catch (error) {
+    logger.error("Error while fetching all media ", error);
+    res.status(500).json({
+      success: false,
+      message: "Problem arised while fetching all media ",
+    });
+  }
+}
+module.exports = {uploadMedia, getAllMedia}
