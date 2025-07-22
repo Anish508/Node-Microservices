@@ -27,7 +27,8 @@ const uploadMediaTCoCLoudinary = (file) => {
 const deleteFromCloudinary = async(publicId)=>{
   try {
     const result = await cloudinary.uploader.destroy(publicId)
-    logger.info("Media deleted successfully from cloud storage")
+    logger.info("Media deleted successfully from cloud storage", publicId)
+    return result
   } catch (err) {
     logger.error("Error while deleting media from cloudinary:", err)
     throw err 

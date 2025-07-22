@@ -9,6 +9,8 @@ const errorHandler = require("./middleware/errorHandler.js");
 const logger = require("./utils/logger.js");
 const { rateLimit } = require("express-rate-limit");
 const { RedisStore } = require("rate-limit-redis");
+const { connectToRabbitMQ, consumeEvent } = require('./utils/rabbitMQ.js');
+const { handlePostDeleted } = require('./eventHandlers/mediaEventHandlers.js');
 
 const app = express();
 const PORT = process.env.PORT || 3003;
@@ -56,9 +58,23 @@ app.use('/api/media',mediaRoutes )
 
 app.use(errorHandler)
 
-app.listen(PORT, () => {
-  logger.info(`Identity service running on port: http://localhost:${PORT}`);
+async function startServer() {
+  try {
+    await connectToRabbitMQ()
+
+    await consumeEvent('post.deleted', handlePostDeleted)
+    app.listen(PORT, () => {
+    logger.info(`Media service is running on port: http://localhost:${PORT}`);
 });
+
+  } catch (error) {
+    logger.error('Failed to connect server', error)
+    process.exit(1)
+  }
+}
+
+startServer()
+
 
 //unhandled promise rejection
 

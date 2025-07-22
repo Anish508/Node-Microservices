@@ -363,3 +363,35 @@
 {"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-20T08:14:13.441Z"}
 {"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-20T08:14:13.449Z"}
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T08:14:14.123Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T05:45:54.191Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-22T05:45:54.199Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T05:45:55.123Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T06:52:57.668Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-22T06:52:57.675Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T06:53:00.521Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-22T06:58:40.549Z"}
+{"level":"info","message":"Request body {\"content\":\"myImage\",\"mediaIds\":[\"687f365ce173407cf160a3ec\"]}","service":"identity-service","timestamp":"2025-07-22T06:58:40.551Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-22T06:58:40.670Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-22T06:58:40.676Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-22T06:59:30.219Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T06:59:30.220Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/687f36a0f485c70aa9f48519 ","service":"identity-service","timestamp":"2025-07-22T07:04:00.581Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T07:04:00.582Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:22:30.682Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-22T07:22:30.690Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:22:31.352Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-22T07:22:48.933Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T07:22:48.934Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-22T07:25:33.849Z"}
+{"level":"info","message":"Request body {\"content\":\"my image\",\"mediaIds\":[\"687f3cad3fc25e3557503bbd\"]}","service":"identity-service","timestamp":"2025-07-22T07:25:33.850Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-22T07:25:33.966Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-22T07:25:33.968Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-22T07:25:42.072Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T07:25:42.073Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/687f3cedbc7b32238ed3b301 ","service":"identity-service","timestamp":"2025-07-22T07:26:28.949Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T07:26:28.950Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-22T07:27:03.718Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-22T07:27:03.718Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:33:25.306Z"}
+{"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-22T07:33:25.315Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:33:26.346Z"}

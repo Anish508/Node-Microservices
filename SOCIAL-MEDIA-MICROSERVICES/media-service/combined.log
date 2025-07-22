@@ -156,3 +156,68 @@
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T08:14:06.943Z"}
 {"level":"info","message":"Identity service running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-20T08:14:13.447Z"}
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-20T08:14:14.124Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T05:45:31.604Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T05:45:32.466Z"}
+{"level":"info","message":"Received POST request to /api/media/upload ","service":"identity-service","timestamp":"2025-07-22T05:49:50.416Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T05:49:50.421Z"}
+{"level":"info","message":"upload media endpoint hit","service":"identity-service","timestamp":"2025-07-22T05:49:50.442Z"}
+{"level":"info","message":"File details: name:img-1.jpg- type:image/jpeg","service":"identity-service","timestamp":"2025-07-22T05:49:50.444Z"}
+{"level":"info","message":"uploading to cloudinary starting......","service":"identity-service","timestamp":"2025-07-22T05:49:50.444Z"}
+{"level":"info","message":"Cloudinary upload successfull. Public Id: - zemlnjv039f1meax57oa","service":"identity-service","timestamp":"2025-07-22T05:49:54.668Z"}
+{"level":"info","message":"Received POST request to /api/media/get-media ","service":"identity-service","timestamp":"2025-07-22T05:54:25.612Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T05:54:25.614Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media ","service":"identity-service","timestamp":"2025-07-22T05:54:27.805Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T05:54:27.806Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media ","service":"identity-service","timestamp":"2025-07-22T05:54:35.224Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T05:54:35.225Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media ","service":"identity-service","timestamp":"2025-07-22T06:13:31.878Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T06:13:31.880Z"}
+{"level":"info","message":"Received POST request to /api/media/upload ","service":"identity-service","timestamp":"2025-07-22T06:14:49.539Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T06:14:49.540Z"}
+{"level":"info","message":"upload media endpoint hit","service":"identity-service","timestamp":"2025-07-22T06:14:49.553Z"}
+{"level":"info","message":"File details: name:medha.jpg- type:image/jpeg","service":"identity-service","timestamp":"2025-07-22T06:14:49.554Z"}
+{"level":"info","message":"uploading to cloudinary starting......","service":"identity-service","timestamp":"2025-07-22T06:14:49.554Z"}
+{"level":"info","message":"Cloudinary upload successfull. Public Id: - oblc3ywuk08eervsnyt1","service":"identity-service","timestamp":"2025-07-22T06:14:53.315Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T06:27:05.693Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T06:27:06.651Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T06:51:41.740Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T06:51:43.472Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T06:51:51.687Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T06:51:54.477Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T06:52:43.717Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T06:52:43.789Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T06:52:43.794Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T06:52:44.898Z"}
+{"level":"info","message":"Received POST request to /api/media/upload ","service":"identity-service","timestamp":"2025-07-22T06:57:27.489Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T06:57:27.491Z"}
+{"level":"info","message":"upload media endpoint hit","service":"identity-service","timestamp":"2025-07-22T06:57:27.519Z"}
+{"level":"info","message":"File details: name:my.jpg- type:image/jpeg","service":"identity-service","timestamp":"2025-07-22T06:57:27.520Z"}
+{"level":"info","message":"uploading to cloudinary starting......","service":"identity-service","timestamp":"2025-07-22T06:57:27.521Z"}
+{"level":"info","message":"Cloudinary upload successfull. Public Id: - gyfxoapt2den9jrsalc2","service":"identity-service","timestamp":"2025-07-22T06:57:32.482Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media ","service":"identity-service","timestamp":"2025-07-22T07:01:29.431Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T07:01:29.431Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:22:07.927Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T07:22:07.943Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T07:22:07.948Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:22:08.898Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:22:25.844Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T07:22:25.858Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T07:22:25.863Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:22:27.728Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T07:22:27.740Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T07:22:27.745Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:22:29.070Z"}
+{"level":"info","message":"Received POST request to /api/media/upload ","service":"identity-service","timestamp":"2025-07-22T07:24:25.246Z"}
+{"level":"info","message":"Request body undefined","service":"identity-service","timestamp":"2025-07-22T07:24:25.247Z"}
+{"level":"info","message":"upload media endpoint hit","service":"identity-service","timestamp":"2025-07-22T07:24:25.268Z"}
+{"level":"info","message":"File details: name:clg-id.jpg- type:image/jpeg","service":"identity-service","timestamp":"2025-07-22T07:24:25.270Z"}
+{"level":"info","message":"uploading to cloudinary starting......","service":"identity-service","timestamp":"2025-07-22T07:24:25.270Z"}
+{"level":"info","message":"Cloudinary upload successfull. Public Id: - vgvuwcadcneg7ordkqyr","service":"identity-service","timestamp":"2025-07-22T07:24:29.834Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:33:18.952Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T07:33:18.967Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T07:33:18.972Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:33:20.667Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:33:25.403Z"}
+{"level":"info","message":"Subscribed to event:post.deleted","service":"identity-service","timestamp":"2025-07-22T07:33:25.472Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-22T07:33:25.476Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:33:26.095Z"}

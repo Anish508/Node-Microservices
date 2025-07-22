@@ -18,4 +18,23 @@ async function connectToRabbitMQ() {
       }
 }
 
-module.exports = connectToRabbitMQ
+async function publishEvent(routingKey, message) {
+  try {
+    if (!channel) {
+      await connectToRabbitMQ();
+    }
+
+    const payload = Buffer.from(JSON.stringify(message));
+    const success = channel.publish(ExchangeName, routingKey, payload);
+
+    if (success) {
+      logger.info(`Event published: ${routingKey}`);
+    } else {
+      logger.warn(`Event not published: ${routingKey}`);
+    }
+  } catch (err) {
+    logger.error("Failed to publish event:", err);
+  }
+}
+
+module.exports = {connectToRabbitMQ, publishEvent}
