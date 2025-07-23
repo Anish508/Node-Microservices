@@ -10,7 +10,7 @@ const errorHandler = require("./middleware/errorHandler.js");
 const logger = require("./utils/logger.js");
 const { rateLimit } = require("express-rate-limit");
 const { RedisStore } = require("rate-limit-redis");
-const connectToRabbitMQ = require('./utils/rabbitMQ.js')
+const {connectToRabbitMQ} = require('./utils/rabbitMQ.js')
 const app = express();
 const PORT = process.env.PORT || 3002;
 

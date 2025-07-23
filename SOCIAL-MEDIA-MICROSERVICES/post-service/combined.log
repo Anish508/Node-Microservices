@@ -395,3 +395,64 @@
 {"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-22T07:33:25.306Z"}
 {"level":"info","message":"Post service running on port: http://localhost:3002","service":"identity-service","timestamp":"2025-07-22T07:33:25.315Z"}
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-22T07:33:26.346Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-23T05:46:50.968Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:46:51.761Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-23T05:58:37.436Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:58:38.332Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-23T05:58:45.307Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:58:46.059Z"}
+{"level":"error","message":"Failed to connect server: connectToRabbitMQ is not a function","service":"identity-service","stack":"TypeError: connectToRabbitMQ is not a function\n    at startServer (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:67:11)\n    at Object.<anonymous> (C:\\Node Microservices\\SOCIAL-MEDIA-MICROSERVICES\\post-service\\src\\server.js:77:1)\n    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n    at Object..js (node:internal/modules/cjs/loader:1895:10)\n    at Module.load (node:internal/modules/cjs/loader:1465:32)\n    at Function._load (node:internal/modules/cjs/loader:1282:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2025-07-23T05:58:56.473Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:58:57.219Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T05:59:23.756Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T05:59:23.764Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:59:24.361Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T05:59:43.898Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T05:59:43.907Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T05:59:47.886Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T05:59:47.896Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T05:59:48.537Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T06:01:19.579Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T06:01:19.587Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T06:01:21.254Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T06:02:25.374Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T06:02:25.383Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T06:02:26.214Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-23T06:04:57.814Z"}
+{"level":"info","message":"Request body {\"content\":\"shri image\",\"mediaIds\":[\"68807b5d2789f03eb790a4e8\"]}","service":"identity-service","timestamp":"2025-07-23T06:04:57.816Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-23T06:04:57.940Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-23T06:04:57.946Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-23T06:05:06.646Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:05:06.647Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/68807b8948361a6e5c31229d ","service":"identity-service","timestamp":"2025-07-23T06:05:37.178Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:05:37.179Z"}
+{"level":"info","message":"Event published: post.deleted","service":"identity-service","timestamp":"2025-07-23T06:05:37.252Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-23T06:15:18.038Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-23T06:15:18.046Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-23T06:15:18.987Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-23T06:16:39.143Z"}
+{"level":"info","message":"Request body {\"content\":\"conversation\",\"mediaIds\":[\"68807e1e2789f03eb790a4ea\"]}","service":"identity-service","timestamp":"2025-07-23T06:16:39.144Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-23T06:16:39.252Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-23T06:16:39.258Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-23T06:16:43.546Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:16:43.547Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/68807e47e37837d864e45ccf ","service":"identity-service","timestamp":"2025-07-23T06:16:54.096Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:16:54.097Z"}
+{"level":"info","message":"Event published: post.deleted","service":"identity-service","timestamp":"2025-07-23T06:16:54.246Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-23T06:32:51.314Z"}
+{"level":"info","message":"Request body {\"content\":\"pranam image\",\"mediaIds\":[\"68808201aa989683a4c4b3a2\"]}","service":"identity-service","timestamp":"2025-07-23T06:32:51.315Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-23T06:32:51.389Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-23T06:32:51.391Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-23T06:32:54.999Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:32:55.000Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/68808213e37837d864e45cd4 ","service":"identity-service","timestamp":"2025-07-23T06:33:03.877Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:33:03.878Z"}
+{"level":"info","message":"Event published: post.deleted","service":"identity-service","timestamp":"2025-07-23T06:33:03.938Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post ","service":"identity-service","timestamp":"2025-07-23T06:47:05.561Z"}
+{"level":"info","message":"Request body {\"content\":\"pranam image\",\"mediaIds\":[\"6880855baa989683a4c4b3a6\"]}","service":"identity-service","timestamp":"2025-07-23T06:47:05.563Z"}
+{"level":"info","message":"Post created successfully","service":"identity-service","timestamp":"2025-07-23T06:47:05.642Z"}
+{"level":"info","message":"Post created by user: 687f2657ece81450df245b64","service":"identity-service","timestamp":"2025-07-23T06:47:05.644Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-all-posts ","service":"identity-service","timestamp":"2025-07-23T06:47:28.604Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:47:28.604Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/68808569e37837d864e45cd9 ","service":"identity-service","timestamp":"2025-07-23T06:47:58.356Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:47:58.357Z"}
+{"level":"info","message":"Event published: post.deleted","service":"identity-service","timestamp":"2025-07-23T06:47:58.434Z"}
