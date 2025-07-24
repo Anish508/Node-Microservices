@@ -456,3 +456,9 @@
 {"level":"info","message":"Received GET request to /api/posts/delete-post/68808569e37837d864e45cd9 ","service":"identity-service","timestamp":"2025-07-23T06:47:58.356Z"}
 {"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-23T06:47:58.357Z"}
 {"level":"info","message":"Event published: post.deleted","service":"identity-service","timestamp":"2025-07-23T06:47:58.434Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-24T05:51:00.274Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-24T05:51:00.282Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-24T05:51:01.036Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-24T05:57:01.044Z"}
+{"level":"info","message":"Post service running on port: http://localhost || connceted to rabbitMQ:3002","service":"identity-service","timestamp":"2025-07-24T05:57:01.052Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-24T05:57:01.805Z"}
