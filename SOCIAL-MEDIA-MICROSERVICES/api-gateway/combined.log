@@ -1145,3 +1145,451 @@
 {"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T05:56:25.109Z"}
 {"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T05:56:25.109Z"}
 {"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T05:56:25.110Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-24T07:32:29.489Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-24T07:32:29.495Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T07:32:29.496Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T07:32:29.496Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T07:32:29.497Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-24T07:33:28.552Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-24T07:33:28.557Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T07:33:28.558Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T07:33:28.559Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-24T07:33:28.560Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T07:33:28.561Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-24T08:44:23.967Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-24T08:44:23.973Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-24T08:44:23.974Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-24T08:44:23.975Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-24T08:44:23.976Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-24T08:44:23.977Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T05:57:30.874Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T05:57:30.877Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T05:57:30.877Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T05:57:30.878Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T05:57:30.878Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T05:57:30.878Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register ","service":"api-gateway","timestamp":"2025-07-25T06:09:06.632Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:09:06.633Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:09:07.008Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T06:09:10.889Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:09:10.890Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:09:11.412Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T06:10:04.507Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:10:04.508Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753423751,\"exp\":1753424351}","service":"api-gateway","timestamp":"2025-07-25T06:10:04.516Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-07-25T06:10:09.785Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T06:10:35.417Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:10:35.418Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753423751,\"exp\":1753424351}","service":"api-gateway","timestamp":"2025-07-25T06:10:35.419Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T06:10:35.539Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T06:10:43.310Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:10:43.310Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753423751,\"exp\":1753424351}","service":"api-gateway","timestamp":"2025-07-25T06:10:43.311Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T06:10:43.464Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T06:17:05.610Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T06:17:05.613Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T06:17:05.614Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T06:17:05.614Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T06:17:05.614Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T06:17:05.615Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T06:19:17.331Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T06:19:17.333Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T06:19:17.333Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T06:19:17.334Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T06:19:17.334Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T06:19:17.334Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T06:20:02.270Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:20:02.270Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:20:02.561Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T06:20:47.377Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:20:47.377Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424402,\"exp\":1753425002}","service":"api-gateway","timestamp":"2025-07-25T06:20:47.380Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-07-25T06:20:53.195Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T06:21:17.190Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:21:17.191Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424402,\"exp\":1753425002}","service":"api-gateway","timestamp":"2025-07-25T06:21:17.192Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T06:21:17.312Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T06:21:20.316Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:21:20.317Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424402,\"exp\":1753425002}","service":"api-gateway","timestamp":"2025-07-25T06:21:20.318Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T06:21:20.471Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T06:29:07.807Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:29:07.808Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:29:08.032Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T06:29:35.025Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:29:35.025Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424947,\"exp\":1753425547}","service":"api-gateway","timestamp":"2025-07-25T06:29:35.026Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-07-25T06:29:38.455Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T06:30:21.477Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:30:21.477Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424947,\"exp\":1753425547}","service":"api-gateway","timestamp":"2025-07-25T06:30:21.478Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T06:30:21.626Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T06:30:27.661Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T06:30:27.661Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753424947,\"exp\":1753425547}","service":"api-gateway","timestamp":"2025-07-25T06:30:27.662Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T06:30:27.822Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T06:42:52.287Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:42:52.287Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:42:52.516Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T06:43:11.124Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:43:11.124Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753425772,\"exp\":1753426372}","service":"api-gateway","timestamp":"2025-07-25T06:43:11.125Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T06:43:11.248Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T06:55:23.424Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:55:23.424Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T06:55:23.678Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T06:55:53.177Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T06:55:53.177Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753426523,\"exp\":1753427123}","service":"api-gateway","timestamp":"2025-07-25T06:55:53.179Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T06:55:53.287Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T07:00:46.791Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T07:00:46.794Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T07:00:46.795Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T07:00:46.795Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T07:00:46.795Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T07:00:46.796Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T07:10:28.139Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T07:10:28.142Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T07:10:28.142Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T07:10:28.142Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T07:10:28.143Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T07:10:28.143Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T07:10:38.576Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:10:38.576Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T07:10:38.850Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T07:11:01.135Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:11:01.135Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753427438,\"exp\":1753428038}","service":"api-gateway","timestamp":"2025-07-25T07:11:01.138Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T07:11:01.242Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T07:15:32.702Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:15:32.703Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T07:15:32.934Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T07:15:51.464Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:15:51.464Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753427732,\"exp\":1753428332}","service":"api-gateway","timestamp":"2025-07-25T07:15:51.466Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T07:15:51.545Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T07:15:57.639Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T07:15:57.640Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-07-25T07:15:57.641Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T07:16:02.864Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T07:16:02.865Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753427732,\"exp\":1753428332}","service":"api-gateway","timestamp":"2025-07-25T07:16:02.865Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T07:16:03.009Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T07:19:54.221Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:19:54.222Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T07:19:54.442Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T07:20:18.235Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:20:18.236Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753427994,\"exp\":1753428594}","service":"api-gateway","timestamp":"2025-07-25T07:20:18.237Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T07:20:18.345Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T07:28:29.613Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:28:29.614Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T07:28:29.868Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T07:28:49.056Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:28:49.056Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753428509,\"exp\":1753429109}","service":"api-gateway","timestamp":"2025-07-25T07:28:49.057Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T07:28:49.164Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T07:28:57.118Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T07:28:57.118Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753428509,\"exp\":1753429109}","service":"api-gateway","timestamp":"2025-07-25T07:28:57.120Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T07:28:57.274Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T07:41:07.188Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T07:41:07.191Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T07:41:07.191Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T07:41:07.192Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T07:41:07.192Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T07:41:07.192Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T07:57:54.200Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:57:54.200Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T07:57:54.411Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T07:58:13.094Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T07:58:13.095Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753430274,\"exp\":1753430874}","service":"api-gateway","timestamp":"2025-07-25T07:58:13.098Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T07:58:13.208Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T07:58:18.897Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T07:58:18.897Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753430274,\"exp\":1753430874}","service":"api-gateway","timestamp":"2025-07-25T07:58:18.898Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T07:58:19.036Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T07:58:31.378Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T07:58:31.379Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753430274,\"exp\":1753430874}","service":"api-gateway","timestamp":"2025-07-25T07:58:31.380Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T07:58:31.385Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T07:59:20.050Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T07:59:20.054Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T07:59:20.055Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T07:59:20.055Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T07:59:20.055Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T07:59:20.056Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T11:22:30.220Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T11:22:30.224Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T11:22:30.224Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T11:22:30.225Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T11:22:30.225Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T11:22:30.226Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T11:26:18.104Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:26:18.105Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T11:26:18.503Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T11:26:46.873Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:26:46.874Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753442778,\"exp\":1753443378}","service":"api-gateway","timestamp":"2025-07-25T11:26:46.881Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T11:26:47.087Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T11:34:01.576Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:34:01.577Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T11:34:01.832Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T11:34:48.912Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:34:48.912Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-07-25T11:34:48.914Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T11:34:57.100Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:34:57.101Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-07-25T11:34:57.101Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T11:35:25.515Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:35:25.515Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443241,\"exp\":1753443841}","service":"api-gateway","timestamp":"2025-07-25T11:35:25.518Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-07-25T11:35:25.526Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T11:43:02.819Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T11:43:02.826Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T11:43:02.828Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T11:43:02.829Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T11:43:02.830Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T11:43:02.831Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T11:43:09.388Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:43:09.389Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T11:43:09.728Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload ","service":"api-gateway","timestamp":"2025-07-25T11:43:18.894Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:43:18.895Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:43:18.902Z"}
+{"level":"info","message":"Response received from media service: 201","service":"api-gateway","timestamp":"2025-07-25T11:43:21.608Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T11:44:08.281Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:44:08.282Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:44:08.286Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T11:44:08.467Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T11:44:12.307Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:44:12.307Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:44:12.310Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:44:12.479Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T11:44:51.610Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:44:51.626Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:44:51.632Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:44:51.641Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T11:45:02.019Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:45:02.019Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:45:02.021Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T11:45:02.113Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T11:45:05.921Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:45:05.921Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:45:05.923Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:45:06.053Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete-post/68833915e748e38fa311d2b0 ","service":"api-gateway","timestamp":"2025-07-25T11:46:05.583Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:46:05.583Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753443789,\"exp\":1753444389}","service":"api-gateway","timestamp":"2025-07-25T11:46:05.586Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:46:05.672Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T11:51:45.903Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T11:51:45.911Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T11:51:45.912Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T11:51:45.913Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T11:51:45.913Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T11:51:45.914Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T11:51:57.726Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:51:57.728Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T11:51:58.084Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T11:53:01.722Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T11:53:01.723Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444317,\"exp\":1753444917}","service":"api-gateway","timestamp":"2025-07-25T11:53:01.728Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T11:53:01.902Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-all-posts ","service":"api-gateway","timestamp":"2025-07-25T11:53:06.574Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:53:06.575Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444317,\"exp\":1753444917}","service":"api-gateway","timestamp":"2025-07-25T11:53:06.578Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:53:06.744Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete-post/688369f6fedcf90d1901fc60 ","service":"api-gateway","timestamp":"2025-07-25T11:54:01.768Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:54:01.769Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444317,\"exp\":1753444917}","service":"api-gateway","timestamp":"2025-07-25T11:54:01.772Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:54:01.873Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete-post/6883701dd3788d16367604e1 ","service":"api-gateway","timestamp":"2025-07-25T11:55:18.363Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:55:18.363Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444317,\"exp\":1753444917}","service":"api-gateway","timestamp":"2025-07-25T11:55:18.365Z"}
+{"level":"info","message":"Response received from post service: 404","service":"api-gateway","timestamp":"2025-07-25T11:55:18.446Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete-post/6883701dec5d553ef8ea048a ","service":"api-gateway","timestamp":"2025-07-25T11:55:35.612Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T11:55:35.612Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444317,\"exp\":1753444917}","service":"api-gateway","timestamp":"2025-07-25T11:55:35.614Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T11:55:35.691Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:01:12.642Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:01:12.642Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:01:12.918Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:01:32.802Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:01:32.803Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444872,\"exp\":1753445472}","service":"api-gateway","timestamp":"2025-07-25T12:01:32.805Z"}
+{"level":"info","message":"Response received from post service: 500","service":"api-gateway","timestamp":"2025-07-25T12:01:32.960Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:03:47.272Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:03:47.273Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444872,\"exp\":1753445472}","service":"api-gateway","timestamp":"2025-07-25T12:03:47.275Z"}
+{"level":"info","message":"Response received from post service: 400","service":"api-gateway","timestamp":"2025-07-25T12:03:47.525Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:05:20.785Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:05:20.785Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753444872,\"exp\":1753445472}","service":"api-gateway","timestamp":"2025-07-25T12:05:20.788Z"}
+{"level":"info","message":"Response received from post service: 400","service":"api-gateway","timestamp":"2025-07-25T12:05:20.910Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:09:09.427Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:09:09.428Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:09:09.664Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:09:52.510Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:09:52.510Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753445349,\"exp\":1753445949}","service":"api-gateway","timestamp":"2025-07-25T12:09:52.514Z"}
+{"level":"info","message":"Response received from post service: 400","service":"api-gateway","timestamp":"2025-07-25T12:09:52.610Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:17:52.906Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:17:52.907Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753445349,\"exp\":1753445949}","service":"api-gateway","timestamp":"2025-07-25T12:17:52.909Z"}
+{"level":"info","message":"Response received from post service: 500","service":"api-gateway","timestamp":"2025-07-25T12:17:53.038Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:18:17.701Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:18:17.702Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753445349,\"exp\":1753445949}","service":"api-gateway","timestamp":"2025-07-25T12:18:17.703Z"}
+{"level":"info","message":"Response received from post service: 500","service":"api-gateway","timestamp":"2025-07-25T12:18:17.781Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:21:16.406Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:21:16.407Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-07-25T12:21:16.409Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:21:20.446Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:21:20.446Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:21:20.708Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:21:29.522Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:21:29.523Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:21:29.823Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts ","service":"api-gateway","timestamp":"2025-07-25T12:21:45.735Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:21:45.735Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753446089,\"exp\":1753446689}","service":"api-gateway","timestamp":"2025-07-25T12:21:45.738Z"}
+{"level":"info","message":"Response received from post service: 500","service":"api-gateway","timestamp":"2025-07-25T12:21:45.889Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Testing%20search%20services ","service":"api-gateway","timestamp":"2025-07-25T12:22:55.559Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:22:55.559Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753446089,\"exp\":1753446689}","service":"api-gateway","timestamp":"2025-07-25T12:22:55.561Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:22:55.675Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:23:40.517Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:23:40.518Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:23:40.816Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T12:24:07.580Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:24:07.581Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753446220,\"exp\":1753446820}","service":"api-gateway","timestamp":"2025-07-25T12:24:07.582Z"}
+{"level":"info","message":"Response received from post service: 400","service":"api-gateway","timestamp":"2025-07-25T12:24:07.645Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T12:24:21.543Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:24:21.544Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753446220,\"exp\":1753446820}","service":"api-gateway","timestamp":"2025-07-25T12:24:21.546Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T12:24:21.661Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T12:24:40.061Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:24:40.062Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753446220,\"exp\":1753446820}","service":"api-gateway","timestamp":"2025-07-25T12:24:40.063Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:24:40.162Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T12:55:45.841Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T12:55:45.842Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T12:55:46.128Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T12:56:06.927Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:56:06.928Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T12:56:06.932Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:56:07.076Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T12:56:10.940Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:56:10.941Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T12:56:10.943Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:56:10.956Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T12:56:12.661Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:56:12.662Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T12:56:12.663Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:56:12.675Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T12:56:13.999Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T12:56:13.999Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T12:56:14.003Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T12:56:14.014Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T13:01:04.687Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:04.687Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:04.689Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:04.698Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T13:01:08.662Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:08.662Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:08.664Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:08.675Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T13:01:10.222Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:10.223Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:10.225Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:10.235Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T13:01:11.568Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:11.568Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:11.570Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:11.579Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20one ","service":"api-gateway","timestamp":"2025-07-25T13:01:13.275Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:13.275Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:13.277Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:13.289Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T13:01:26.662Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T13:01:26.663Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-07-25T13:01:26.665Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T13:01:41.818Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T13:01:41.819Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:41.821Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T13:01:42.002Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:01:57.043Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:01:57.044Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:01:57.045Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:01:57.114Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:02:01.077Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:02:01.078Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:02:01.079Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:02:01.085Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:02:02.618Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:02:02.619Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:02:02.621Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:02:02.628Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:02:03.865Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:02:03.865Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:02:03.867Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:02:03.874Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:02:05.103Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:02:05.103Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:02:05.105Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:02:05.114Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20two ","service":"api-gateway","timestamp":"2025-07-25T13:02:06.378Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:02:06.379Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753448146,\"exp\":1753448746}","service":"api-gateway","timestamp":"2025-07-25T13:02:06.380Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:02:06.387Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login ","service":"api-gateway","timestamp":"2025-07-25T13:13:40.013Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T13:13:40.013Z"}
+{"level":"info","message":"Response received from identity service: 200","service":"api-gateway","timestamp":"2025-07-25T13:13:40.267Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T13:14:00.946Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T13:14:00.947Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:00.949Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T13:14:01.038Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:14:21.581Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:14:21.582Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:21.584Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:14:21.718Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:14:38.739Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:14:38.739Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:38.741Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:14:38.758Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:14:40.255Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:14:40.255Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:40.257Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:14:40.264Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:14:42.061Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:14:42.061Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:42.063Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:14:42.072Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:14:46.533Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:14:46.534Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:46.535Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:14:46.547Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post ","service":"api-gateway","timestamp":"2025-07-25T13:14:57.872Z"}
+{"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2025-07-25T13:14:57.873Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:14:57.877Z"}
+{"level":"info","message":"Response received from post service: 201","service":"api-gateway","timestamp":"2025-07-25T13:14:57.964Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:15:03.192Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:15:03.193Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:15:03.194Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:15:03.202Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:15:04.641Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:15:04.641Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:15:04.643Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:15:04.650Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=text%20three ","service":"api-gateway","timestamp":"2025-07-25T13:15:06.327Z"}
+{"level":"info","message":"Request body undefined","service":"api-gateway","timestamp":"2025-07-25T13:15:06.328Z"}
+{"level":"info","message":"Decoded user: {\"userId\":\"68831f82baeb077e438bc3cf\",\"username\":\"Anil\",\"iat\":1753449220,\"exp\":1753449820}","service":"api-gateway","timestamp":"2025-07-25T13:15:06.329Z"}
+{"level":"info","message":"Response received from post service: 200","service":"api-gateway","timestamp":"2025-07-25T13:15:06.338Z"}
+{"level":"info","message":"API Gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-07-25T13:16:50.935Z"}
+{"level":"info","message":"Identity service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-07-25T13:16:50.945Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-07-25T13:16:50.948Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-07-25T13:16:50.949Z"}
+{"level":"info","message":"Search service is running on port : http://localhost:3004","service":"api-gateway","timestamp":"2025-07-25T13:16:50.951Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-07-25T13:16:50.952Z"}

@@ -1,6 +1,4 @@
 const mongoose = require('mongoose')
-const logger = require('logger')
-const { required } = require('joi')
 
 
 const searchPostSchema = mongoose.Schema({
@@ -12,6 +10,7 @@ const searchPostSchema = mongoose.Schema({
       userId: {
             type: String,
             required: true,
+            index: true
       },
       content: {
             type: String,

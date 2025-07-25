@@ -1,40 +1,36 @@
-const amqp = require('amqplib');
-const logger = require('./logger.js');
+const amqp = require("amqplib");
+const logger = require("./logger");
 
 let connection = null;
 let channel = null;
 
-const ExchangeName = 'facebook_event';
+const EXCHANGE_NAME = "facebook_events";
 
 async function connectToRabbitMQ() {
-      try {
-            connection = await amqp.connect(process.env.RabbitMQ_URL);
-            channel = await connection.createChannel();
-            await channel.assertExchange(ExchangeName, 'direct', { durable: true });
-            logger.info('Connected to RabbitMQ successfully');
-      } catch (error) {
-            logger.error('Error connecting to RabbitMQ:', error);
-            throw error;
-      }
-}
-
-async function publishEvent(routingKey, message) {
   try {
-    if (!channel) {
-      await connectToRabbitMQ();
-    }
+    connection = await amqp.connect(process.env.RABBITMQ_URL);
+    channel = await connection.createChannel();
 
-    const payload = Buffer.from(JSON.stringify(message));
-    const success = channel.publish(ExchangeName, routingKey, payload);
+    await channel.assertExchange(EXCHANGE_NAME, "topic", { durable: false });
 
-    if (success) {
-      logger.info(`Event published: ${routingKey}`);
-    } else {
-      logger.warn(`Event not published: ${routingKey}`);
-    }
-  } catch (err) {
-    logger.error("Failed to publish event:", err);
+    logger.info("Connected to rabbit mq");
+    return channel;
+  } catch (e) {
+    logger.error("Error connecting to rabbit mq", e);
   }
 }
 
-module.exports = {connectToRabbitMQ, publishEvent}
+async function publishEvent(routingKey, message) {
+  if (!channel) {
+    await connectToRabbitMQ();
+  }
+
+  channel.publish(
+    EXCHANGE_NAME,
+    routingKey,
+    Buffer.from(JSON.stringify(message))
+  );
+  logger.info(`Event published: ${routingKey}`);
+}
+
+module.exports = { connectToRabbitMQ, publishEvent };

@@ -1,34 +1,38 @@
-const amqp = require('amqplib');
-const logger = require('./logger.js');
+const amqp = require("amqplib");
+const logger = require("./logger");
 
 let connection = null;
 let channel = null;
 
-const ExchangeName = 'facebook_event';
+const EXCHANGE_NAME = "facebook_events";
 
 async function connectToRabbitMQ() {
-      try {
-            connection = await amqp.connect(process.env.RabbitMQ_URL);
-            channel = await connection.createChannel();
-            await channel.assertExchange(ExchangeName, 'direct', { durable: true });
-            logger.info('Connected to RabbitMQ successfully');
-      } catch (error) {
-            logger.error('Error connecting to RabbitMQ:', error);
-            throw error;
-      }
-}
+  try {
+    connection = await amqp.connect(process.env.RABBITMQ_URL);
+    channel = await connection.createChannel();
 
+    await channel.assertExchange(EXCHANGE_NAME, "topic", { durable: false });
+    logger.info("Connected to rabbit mq");
+    return channel;
+  } catch (e) {
+    logger.error("Error connecting to rabbit mq", e);
+  }
+}
 
 async function consumeEvent(routingKey, callback) {
   if (!channel) {
     await connectToRabbitMQ();
   }
 
-  const q = await channel.assertQueue("", { exclusive: true });
-  await channel.bindQueue(q.queue, ExchangeName, routingKey);
+  const q = await channel.assertQueue('', { exclusive: true });
+
+
+
+  await channel.bindQueue(q.queue, EXCHANGE_NAME, routingKey);
   channel.consume(q.queue, (msg) => {
     if (msg !== null) {
       const content = JSON.parse(msg.content.toString());
+      logger.info("Received event:", content)
       callback(content);
       channel.ack(msg);
     }
@@ -37,4 +41,4 @@ async function consumeEvent(routingKey, callback) {
   logger.info(`Subscribed to event: ${routingKey}`);
 }
 
-module.exports = { connectToRabbitMQ , consumeEvent}
+module.exports = { connectToRabbitMQ, consumeEvent };
