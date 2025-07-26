@@ -377,3 +377,7 @@
 {"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-25T13:16:52.234Z"}
 {"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-25T13:16:52.241Z"}
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-25T13:16:53.004Z"}
+{"level":"info","message":"Connected to RabbitMQ successfully","service":"identity-service","timestamp":"2025-07-26T06:33:48.660Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:33:48.670Z"}
+{"level":"info","message":"Media service is running on port: http://localhost:3003","service":"identity-service","timestamp":"2025-07-26T06:33:48.673Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:33:50.448Z"}

@@ -1,7 +1,7 @@
 
 const Search = require('../models/searchPost.js')
 const logger = require('../utils/logger.js')
-
+const {invalidatePostCache} = require('../utils/cacheUtils.js')
 
 
 async function handleSearchPostCreated(event,req) {
@@ -17,6 +17,7 @@ async function handleSearchPostCreated(event,req) {
 
             await newSearchPost.save()
 
+            await invalidatePostCache(req)
             logger.info(`New search post created for post ${event.postId} : ${newSearchPost._id.toString()}`)
       } catch (error) {
             logger.error("Error handling post creation event ", error)

@@ -458,3 +458,126 @@
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-25T13:16:49.113Z"}
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-25T13:16:51.455Z"}
 {"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-25T13:16:51.555Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:33:36.889Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:33:36.892Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:33:36.904Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:33:36.958Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:33:36.961Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:33:37.787Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:06.233Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:06.233Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:06.238Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:09.007Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:09.007Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:09.010Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:10.371Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:10.372Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:10.373Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:11.628Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:11.628Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:11.632Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:19.043Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:19.044Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:19.045Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:20.196Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:20.196Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:20.197Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:21.349Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:21.349Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:21.351Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:22.430Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:22.431Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:22.432Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:23.523Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:23.523Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:23.525Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:24.757Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:24.757Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:24.760Z"}
+{"content":"text five","createdAt":"2025-07-26T06:35:40.887Z","level":"info","message":"Received event:","postId":"6884773c32be8563761cc271","service":"identity-service","timestamp":"2025-07-26T06:35:40.967Z","userId":"68831f82baeb077e438bc3cf"}
+{"content":"text five","createdAt":"2025-07-26T06:35:40.887Z","level":"info","message":"handleSearchPostCreated triggered with event:","postId":"6884773c32be8563761cc271","service":"identity-service","timestamp":"2025-07-26T06:35:40.968Z","userId":"68831f82baeb077e438bc3cf"}
+{"level":"info","message":"New search post created for post 6884773c32be8563761cc271 : 6884773ccda6c9d5636262fd","service":"identity-service","timestamp":"2025-07-26T06:35:41.047Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20three ","service":"identity-service","timestamp":"2025-07-26T06:35:48.859Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:35:48.859Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:35:48.860Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:05.397Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:05.398Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:05.399Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:06.633Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:06.634Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:06.635Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:12.101Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:12.101Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:12.102Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:13.247Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:13.247Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:13.249Z"}
+{"content":"text six","createdAt":"2025-07-26T06:36:24.679Z","level":"info","message":"Received event:","postId":"6884776832be8563761cc273","service":"identity-service","timestamp":"2025-07-26T06:36:24.789Z","userId":"68831f82baeb077e438bc3cf"}
+{"content":"text six","createdAt":"2025-07-26T06:36:24.679Z","level":"info","message":"handleSearchPostCreated triggered with event:","postId":"6884776832be8563761cc273","service":"identity-service","timestamp":"2025-07-26T06:36:24.790Z","userId":"68831f82baeb077e438bc3cf"}
+{"level":"info","message":"New search post created for post 6884776832be8563761cc273 : 68847768cda6c9d563626304","service":"identity-service","timestamp":"2025-07-26T06:36:24.856Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:32.474Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:32.475Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:32.476Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:35.604Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:35.604Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:35.605Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20five ","service":"identity-service","timestamp":"2025-07-26T06:36:39.420Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:39.420Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:39.421Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:36:46.807Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:46.807Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:46.808Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:36:50.907Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:36:50.907Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:36:50.908Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:38:28.786Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:38:28.789Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:38:28.795Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:38:28.800Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:38:28.802Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:38:29.624Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:38:36.964Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:38:36.967Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:38:36.972Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:38:36.977Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:38:36.979Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:38:37.682Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:39:24.309Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:39:24.313Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:39:24.318Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:39:24.322Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:39:24.324Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:39:24.992Z"}
+{"content":"cache","createdAt":"2025-07-26T06:39:39.005Z","level":"info","message":"Received event:","postId":"6884782b32be8563761cc275","service":"identity-service","timestamp":"2025-07-26T06:39:39.082Z","userId":"68831f82baeb077e438bc3cf"}
+{"content":"cache","createdAt":"2025-07-26T06:39:39.005Z","level":"info","message":"handleSearchPostCreated triggered with event:","postId":"6884782b32be8563761cc275","service":"identity-service","timestamp":"2025-07-26T06:39:39.083Z","userId":"68831f82baeb077e438bc3cf"}
+{"level":"info","message":"New search post created for post 6884782b32be8563761cc275 : 6884782b7b1af839961301c1","service":"identity-service","timestamp":"2025-07-26T06:39:39.154Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:39:43.463Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:39:43.464Z"}
+{"level":"info","message":"Search endpoint hit!","service":"identity-service","timestamp":"2025-07-26T06:39:43.469Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:39:45.828Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:39:45.828Z"}
+{"level":"warn","message":"Sensitive enp point  rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-07-26T06:39:45.829Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:41:25.355Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:41:25.356Z"}
+{"level":"warn","message":"Sensitive enp point  rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-07-26T06:41:25.359Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=text%20six ","service":"identity-service","timestamp":"2025-07-26T06:41:29.631Z"}
+{"level":"info","message":"Request body {}","service":"identity-service","timestamp":"2025-07-26T06:41:29.631Z"}
+{"level":"warn","message":"Sensitive enp point  rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-07-26T06:41:29.632Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:40.582Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:40.586Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:54.005Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:54.008Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:41:54.013Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:41:54.018Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:41:54.020Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:41:54.797Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:57.900Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:41:57.903Z"}
+{"level":"info","message":"Subscribed to event: post-created","service":"identity-service","timestamp":"2025-07-26T06:41:57.908Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"identity-service","timestamp":"2025-07-26T06:41:57.913Z"}
+{"level":"info","message":"Search service running on port: http://localhost || connceted to rabbitMQ:3004","service":"identity-service","timestamp":"2025-07-26T06:41:57.915Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:41:58.617Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:42:00.518Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:42:00.523Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:52:12.403Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"identity-service","timestamp":"2025-07-26T06:52:12.407Z"}

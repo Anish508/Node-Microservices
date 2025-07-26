@@ -499,3 +499,11 @@
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-07-25T13:13:40.021Z"}
 {"level":"info","message":"Identity service running on port: http://localhost:3001","service":"identity-service","timestamp":"2025-07-25T13:16:52.020Z"}
 {"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-25T13:16:52.909Z"}
+{"level":"info","message":"Identity service running on port: http://localhost:3001","service":"identity-service","timestamp":"2025-07-26T06:33:56.444Z"}
+{"level":"info","message":"MongoDB Connected successfully","service":"identity-service","timestamp":"2025-07-26T06:33:57.154Z"}
+{"level":"info","message":"Received POST request to /api/auth/login ","service":"identity-service","timestamp":"2025-07-26T06:34:14.831Z"}
+{"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2025-07-26T06:34:14.832Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-07-26T06:34:14.837Z"}
+{"level":"info","message":"Received POST request to /api/auth/login ","service":"identity-service","timestamp":"2025-07-26T06:40:54.127Z"}
+{"level":"info","message":"Request body [object Object]","service":"identity-service","timestamp":"2025-07-26T06:40:54.127Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-07-26T06:40:54.129Z"}

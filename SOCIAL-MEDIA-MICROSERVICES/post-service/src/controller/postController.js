@@ -32,7 +32,7 @@ const createPost = async (req, res) => {
     });
     await newlyCreatedPost.save();
 
-    await publishEvent('post-created',{
+    await publishEvent('post.created',{
       postId: newlyCreatedPost._id.toString(),
       userId : newlyCreatedPost.user.toString(),
       content: newlyCreatedPost.content,

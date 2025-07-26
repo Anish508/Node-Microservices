@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 const rateLimiter = new RateLimiterRedis({
       storeClient: redisClient,
       keyPrefix: "middleware",
-      points: 10, //10 req
+      points: 50, //10 req
       duration: 5, //5 sec
 });
 
@@ -91,7 +91,7 @@ async function startServer() {
 
             //consume or subscribe to the event
 
-            await consumeEvent('post-created', handleSearchPostCreated)
+            await consumeEvent('post.created', handleSearchPostCreated)
             await consumeEvent('post.deleted', handlePostDeleted)
 
             app.listen(PORT, () => {
